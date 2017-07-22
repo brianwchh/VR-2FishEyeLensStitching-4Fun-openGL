@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-in this project, I am going to show how to stitch two fisheye images into a 360 panoramic picture , you don't have to layout your own PCB, instead just use the products out in the market as the prototype model to play with your stitching ideas ,calibrate it and then write some code in openGL to stitch them into a panoramic view, further, if you like, you can convert your ideas from openGL to cuda code ....  for fun !
-=======
+demo : 
+http://v.youku.com/v_show/id_XMTgzNzU0MjcwNA==.html?spm=a2hfx.8251854.recordContent.DL~DD~5~5~5~1~3~A&firsttime=0
+
 in this project, I am going to show how to stitch two fisheye images into a 360 panoramic picture , you don't have to layout your own PCB, instead just use the products out in the market as the prototype model to play with your stitching ideas ,calibrate it and then write some code in openGL to stitch them into a panoramic view, further, if you like, you can convert your ideas from openGL to cuda code ....  for fun !
 
 This is also a funny and lazy way to use openGL to accelerate computation , it is far far from optimized code , way too many branches in the code , but it just amazingly works in real time , maybe due to the powerful GPU on my laptop, Lol...... , I even streamed the stitched panoramic videos, which had been compressed first, from this laptop to TK1 to display it, but failed to treamed it to my android phone using JNI method, maybe due to the slow ffmpeg decodering process on my android's ARM, for which I did not know how to use its onchip h.264 hard core. 
