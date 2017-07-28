@@ -1,13 +1,14 @@
+/*
+  Author : Brian (Wu Cheng He)
+  Email :  brianwchh@gmail.com
+
+*/
 #version 330 core
 in vec3 ourColor;
 in vec2 TexCoord;
 
 out vec4 color;
-/*
-	Author : Brian (Wu Cheng He)
-	Email :  brianwchh@gmail.com
 
-*/
 
 // Texture samplers
 uniform sampler2D rightTexture;
